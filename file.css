@@ -1,0 +1,414 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.header
+{
+	background-color: #eeeeee;
+	height: 50px;
+	padding-top: 10px;
+	font-weight: bold;
+	font-family: elephant;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+	border-bottom: 2px solid red;
+}
+
+#menu
+{
+	background-color: black;
+	height: 50px;
+	float: center;
+	border-bottom: 2px solid red;
+}
+#menu ul
+ {
+list-style: none;
+
+}
+#menu ul li
+{
+	float: left;
+	margin: 15px;
+	font-weight: bold;
+	color: white;
+	margin-left: 70px;
+	
+
+}
+
+a {
+	text-decoration: none;
+}
+a:active, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 20px;
+}
+
+#search
+{
+	float: right;
+	font-size: arial;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 0px;
+}
+
+#button {
+	border-radius: 10px 10px 10px 10px;
+	font-weight: bold;
+	font-size: 17px;
+	font-family: arial;
+	margin: 0psx;
+
+}
+
+#button:hover {
+	background-color: blue;
+	font-size: 20px;
+}
+
+.main
+{
+	background-image: url(rasheed.jpg);
+	width: 99%;
+	height: 915px;
+	border: 1px solid red;
+	margin: 10px;
+
+}
+
+#title1	
+{
+	text-align: center;
+	font-family: elephant;
+	font-weight: bold;	
+	font-size: 25px;
+	color: black;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+#a1 {
+	font-family: elephant;
+	color: black;
+	margin-top: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#intro
+	{
+	color: black;
+	font-family: arial;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+#comment {
+	text-align: center;
+	font-family: elephant;
+	font-size: 25px;
+	color: black;
+	text-decoration: underline;
+	margin-top: 70px;
+	font-style: italic;
+}
+
+#name, #comment2
+{
+	font-family: arial;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 15px;
+	color: black;
+	font-style: italic;
+}
+
+#namebox {
+	text-align: center;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 500px;
+	height: 30px;
+	width: 300px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#namebox:focus {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	font-family: elephant;
+}
+
+#commentbox	
+{
+	width: 600px;
+	height: 100px;
+	margin-left: 380px;
+	text-align: center;
+	border-radius: 25px 25px 25px 25px;
+}
+
+#commentbox:focus {
+	background-color: black;
+	color: white;
+	font-style: italic;
+	font-family: elephant;
+}
+
+#submit
+{
+	width: 70px;
+	border-radius: 15px 15px 15px 15px;
+	height: 40px;
+	margin-left: 50%;
+	color: black;
+	font-family: elephant;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+#submit:focus 
+{
+	width: 80px;
+	background-color: black;
+	color: white;
+}
+
+#popular
+{
+	 text-align: center;
+	 font-size: 25px;
+	 font-weight: bold;
+	 margin-bottom: 20px;
+	 font-family: arial;
+	 margin-top: 30px;
+	 text-decoration: underline;
+}
+
+#f
+{
+	float: left;
+	margin-left: 70px;
+}
+
+#info
+{
+	color: black;
+	float: right;
+	margin-right: 35px;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+footer
+{
+	background-color: black;
+	height: 40px;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	border-bottom: 5px solid red;	
+}
+
+#first
+{
+	float: left;
+	background-color: white;
+	width: 185px;
+	height: 360px;
+	text-align: center;
+	margin-right: 40px;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+#second
+{
+	background-color: white;
+	width: 195px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+#third
+{
+	background-color: white;
+	width: 195px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+#fourth
+{
+	background-color: white;
+	width: 195px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+#fifth
+{
+	background-color: white;
+	width: 185px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+#sixth
+{
+	background-color: white;
+	width: 200px;
+	height: 340px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 100px;
+	margin-right: 40px;
+}
+#seventh
+{
+	background-color: white;
+	width: 200px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	margin-top: 100px;
+	margin-right: 40px;
+}
+#eighth
+{
+	background-color: white;
+	width: 185px;
+	height: 360px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 100px;
+	margin-right: 40px;
+}
+
+#nineth
+{
+	background-color: white;
+	width: 270px;
+	height: 270px;
+	text-align: center;
+	float: left;
+	margin-left: 0px;
+	margin-top: 100px;
+	margin-right: 20px;
+	color: black;
+}
+#tenth
+{
+	color: black;
+	background-color: white;
+	width: 200px;
+	height: 340px;
+	text-align: center;
+	float: left;
+	margin-left: 20px;
+	margin-top: 100px;
+	margin-right: 40px;
+}
+
+#paynow
+{
+	width: 70px;
+	border-radius: 15px 15px 15px 15px;
+	height: 25px;
+	color: black;
+	font-family: elephant;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+#paynow:focus 
+{
+	width: 80px;
+	background-color: black;
+	color: white;
+}
+
+#intro2 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+#facebook {
+	height: 100px;
+	width: 100px;
+	margin: 50px;
+	margin-left: 150px;
+}
+
+#googleplus {
+	height: 110px;
+	width: 110px;
+	margin: 50px;
+	margin-left: 150px;
+}
+
+#twitter, #instagram {
+	height: 110px;
+	width: 110px;
+	margin: 50px;
+	margin-left: 150px;
+}
+
+#pe {
+	text-align: right;
+	margin-top: 15px;
+}
+
+#social {
+	height: 80px;
+	margin-top: 60px;
+	margin-left: 70px;
+	border-radius: 40px;
+
+}
+
+.social {
+	margin-left: 400px;
+}
